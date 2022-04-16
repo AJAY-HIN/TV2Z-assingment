@@ -1,0 +1,48 @@
+ body{
+    background-color: #291005;
+} 
+
+ nav{
+    display: flex;
+    flex-direction:  row;
+} 
+
+h1{
+    margin-left: 10px;
+
+}
+
+ li {
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.card-io{
+    display: flex;
+    margin:  9%;
+    width: 60vw;
+    height: 55vh;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-items:flex-start    
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   
+    background-color: #101827;
+    color: #4D4D4D;
+    text-align: center;
+    padding-top: 15PX;
+  }
+  
+  
